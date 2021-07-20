@@ -1,0 +1,40 @@
+body {
+    margin: 0px auto;
+    min-width: 320px;
+    max-width: 1020px;  
+    width: 100%;
+ }
+
+ /* nav bar */
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ nav.navbar {
+    display: block;
+ }
+
+nav.navbar ul li{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    width: 18%;
+    background-color: #a98467;
+    border: #adc178 solid 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: white;
+}
+
+nav.navbar ul {
+    width: 100%;
+}
