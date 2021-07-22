@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+div.row:after {
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    background-color: lightgrey;
+    border-color: black solid 4px;
+}
