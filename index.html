@@ -5,21 +5,64 @@
     <link href="css/layout.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="favicons/theguywithglasses/favicon.ico" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet"> 
     <meta charset="utf-8">
     
 </head>
 <body>
     <header>
-       <a href="index.html"><img src="images/header/header.png" alt="Moor aquariums" class="headerimg"></a>
+       <a href="index.html"><img src="images/header/header v2.png" alt="Moor aquariums" class="headerimg"></a>
+       <!-- https://www.pinterest.ca/pin/386676317989764825/-->
     </header>
     <nav class="navbar">
         <ul>
             <li><a href="index.html" style="text-decoration: none;">Home</a></li>
-            <li><a href="https://channelawesome.com/" style="text-decoration: none;">Fish</a></li>
-            <li><a href="https://channelawesome.com/" style="text-decoration: none;">Reptiles</a></li>
+            <li><a href="" style="text-decoration: none;">Fish</a></li>
+            <li><a href="" style="text-decoration: none;">Reptiles</a></li>
             <li><a href="products.html" style="text-decoration: none;">Products</a></li>
             <li><a href="About_us.html" style="text-decoration: none;">About us</a></li>
         </ul>
     </nav>
+    <a href=""><img src="images/buttons/live fish.png" alt="Live fish" id="fishbutton"></a>
+    <!--https://www.petsmart.ca/fish/live-fish/goldfish-betta-and-more/dumbo-halfmoon-male-betta-fish-5210839.html-->
+    <a href=""><img src="images/buttons/live reptiles.png" alt="Live Reptiles" id="reptilebutton"></a>
+    <!--https://reptilianostra.com/product/correlophus-ciliatus-crested-gecko/-->
+    <a href="products.html"><img src="images/buttons/products.png" alt="Products" id="Productbutton"></a>
+    <!--https://www.petsmart.ca/fish/food-and-care/disease-treatment/api-pimafix-fish-fungal-infection-treatment-5082750.html
+    https://apifishcare.com/product/melafix
+    https://flipaquatics.com/products/amazon-sword?variant=15574661005414  
+    https://www.amazon.com/Aqueon-Aquarium-Fish-Tank-Size/dp/B01MRCNVSY
+    https://kingkoigoldfish.com/products/dual-sponge-filter  
+    https://www.alibaba.com/product-detail/Xinyou-XY-3530-bio-sponge-filter_62144643005.html
+    -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.7418573670084!2d-66.02530568449612!3d43.84045017911533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b561396a45d16f3%3A0xb1f9c9dd78d2ad03!2sMoor%20Aquariums%20Fish%20and%20Reptiles!5e0!3m2!1sen!2sca!4v1626883379974!5m2!1sen!2sca" 
+    width="50%" height="300" style="border:0;" allowfullscreen="" loading="lazy" id="map"></iframe>
+    <article class="contact">
+        <h1>Information</h1>
+        <ul>
+            <li>Address: 9342 Nova Scotia Trunk 3,<br> 
+                Pleasant Lake, NS B5A 5J9</li>
+            <li><a href="tel:902-307-3474" id="phonenum">Phone: 902-307-3474</a></li>
+            <legend id="hours">Hours</legend>
+                <li>monday 12-7p.m.</li>
+                <li>tuesday 12-7p.m.</li>
+                <li>wedsday <b>Closed</b></li>
+                <li>thursday 12-7p.m.</li>
+                <li>friday 12-7p.m.</li>
+                <li>saturday 12-5p.m.</li>
+                <li>sunday <b>Closed</b></li>
+        </ul>
+    </article>
+    <form class="newsletterform">
+        <label for="Fname">First name</label>
+        <input type="text" name="first name" id="Fname" required>
+        <label for="Lname">Last name</label>
+        <input type="text" name="Last name" id="Lname"required>
+        <label for="email">Email</label>
+        <input type="text" name="mail" id="email" required>
+        <input type="submit">
+    </form>
 </body>
 </html>

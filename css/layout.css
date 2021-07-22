@@ -25,8 +25,8 @@ nav.navbar ul li{
     line-height: 30px;
     height: 30px;
     width: 18%;
-    background-color: #a98467;
-    border: #adc178 solid 2px;
+    background-color: grey;
+    border: black solid 2px;
     margin-right: auto;
     margin-left: auto;
 }

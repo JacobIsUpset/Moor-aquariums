@@ -1,1 +1,54 @@
 @charset "utf-8";
+
+#fishbutton {
+    padding: 5%;
+    float: left;
+    width: 35%;
+}
+
+#reptilebutton {
+    padding: 5%;
+    float: right;
+    width: 35%;
+}
+
+#Productbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    width: 70%;
+    align-self: center;
+}
+
+#map {
+    float: left;
+    border: black solid 3px;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+a#phonenum {
+    color: black;
+    text-decoration: none;
+}
+
+.contact {
+    font-family: 'Otomanopee One', sans-serif;
+    float: right;
+    border: solid black 3px;
+}
+
+#hours {
+    text-align: center;
+}
+
+
+.newsletterform {
+    display: block;
+    align-self: center;
+    float: left;
+}
