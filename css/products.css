@@ -10,3 +10,7 @@ div.row:after {
     background-color: lightgrey;
     border-color: black solid 4px;
 }
+
+table {
+    border: black solid 3px;
+}
