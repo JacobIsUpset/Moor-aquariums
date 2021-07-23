@@ -2,10 +2,6 @@
 
 
 img#dudebro {
-    display: block;
+    display: inline;
     float: right;
-}
-
-.aboutus {
-    display: none;
 }
