@@ -24,7 +24,6 @@
 #map {
     float: left;
     border: black solid 3px;
-    padding: 5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -66,4 +65,16 @@ div.newsletterform {
     clear: both;
     margin-top: 4%;
     background-color: lightgrey;
+}
+
+.newsletterform input:hover {
+    background-color: #fae26a;
+}
+
+.newsletterform input:focus:valid {
+    background-color: chartreuse;
+}
+
+.newsletterform input:focus:invalid {
+    background-color: crimson;
 }
